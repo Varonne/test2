@@ -32,5 +32,5 @@ module.exports = {
             }
         }
     },
-    publicPath: '/test2/',
+    publicPath: process.env.NODE_ENV === "production" ? "/test2/" : "/",
 }
