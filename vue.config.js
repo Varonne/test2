@@ -32,5 +32,5 @@ module.exports = {
             }
         }
     },
-    publicPath: './',
+    publicPath: '/test2/',
 }
